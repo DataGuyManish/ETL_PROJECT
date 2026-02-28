@@ -1,0 +1,21 @@
+student_id,name,age,grade,subject,score,email
+1,Ahmed Khan,20,A,Math,85,ahmed@gmail.com
+2,Sara Ali,22,B,Science,78,sara@gmail.com
+3,,19,C,Math,90,unknown@gmail.com
+4,John Smith,abc,A,English,88,john@gmail.com
+5,Fatima Malik,21,B,Science,76,fatima@gmail.com
+6,Omar Farooq,,A,Math,92,omar@gmail.com
+7,Ayesha Raza,23,,Science,65,ayesha@gmail.com
+8,Ali Hassan,25,B,English,,ali@gmail.com
+9,Zara Ahmed,21,A,Math,88,zara@gmail.com
+10,,,B,Science,70,noname@gmail.com
+11,Hassan Malik,19,C,English,55,hassan@gmail.com
+12,Nadia Khan,twenty,A,Math,91,nadia@gmail.com
+13,Usman Ali,22,B,Science,80,usman@gmail.com
+14,Maria Baig,24,A,,95,maria@gmail.com
+15,Bilal Ahmed,21,B,Math,72,bilal@gmail.com
+16,,30,C,English,60,ghost@gmail.com
+17,Sana Malik,22,A,Science,88,sana@gmail.com
+18,Tariq Hassan,xyz,B,Math,77,tariq@gmail.com
+19,Amna Sheikh,20,A,English,93,amna@gmail.com
+20,Kamran Ali,23,,Science,,kamran@gmail.com

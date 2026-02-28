@@ -1,0 +1,48 @@
+2026-02-28 14:11:53 - __main__ - INFO - File loaded successfully
+2026-02-28 14:11:53 - __main__ - INFO - pipeline runs smoothly
+2026-02-28 14:11:53 - __main__ - INFO - Number of rows extracted is: 20
+2026-02-28 13:16:08 - __main__ - INFO - start finding the csv file
+2026-02-28 13:16:08 - __main__ - INFO - File loaded successfully
+2026-02-28 13:16:08 - __main__ - INFO - pipeline runs smoothly
+2026-02-28 13:16:08 - __main__ - INFO - Number of rows extracted is: 20
+2026-02-28 13:23:07 - __main__ - INFO - Loaded 20 rows
+2026-02-28 13:23:07 - __main__ - INFO - transformation of data begins
+2026-02-28 13:23:07 - __main__ - WARNING - Dropped 3 rows with misisng name: 
+2026-02-28 13:23:07 - __main__ - WARNING - dropped 4 rows where age is not number:
+2026-02-28 13:23:07 - __main__ - WARNING - Dropped 2 rows with empty grade : 
+2026-02-28 13:23:07 - __main__ - INFO - transformation complete . rows remaining : 11 
+2026-02-28 13:45:16 - transform - INFO - transformation of data begins
+2026-02-28 13:45:16 - transform - WARNING - Dropped 3 rows with misisng name: 
+2026-02-28 13:45:16 - transform - WARNING - dropped 4 rows where age is not number:
+2026-02-28 13:45:16 - transform - WARNING - Dropped 2 rows with empty grade : 
+2026-02-28 13:45:16 - transform - INFO - transformation complete . rows remaining : 11 
+2026-02-28 13:45:16 - __main__ - INFO - saving Cleaned data Begins
+2026-02-28 13:45:16 - __main__ - INFO - Load successful! Saved 11 rows to C:\Users\ms398\ETL_PROJECT\data\cleaned_data\cleaned_students.csv
+2026-02-28 14:11:53 - __main__ - INFO - Starting extraction from: C:\Users\ms398\ETL_PROJECT\data\raw\Student_details.csv
+
+2026-02-28 14:13:31 - __main__ - INFO - ------ PIPELINE STARTED ------
+2026-02-28 14:13:31 - extract - INFO - Starting extraction from: C:\Users\ms398\ETL_PROJECT\data\raw\Student_details.csv
+2026-02-28 14:13:31 - extract - INFO - File loaded successfully
+2026-02-28 14:13:31 - extract - INFO - pipeline runs smoothly
+2026-02-28 14:13:31 - extract - INFO - Number of rows extracted is: 20
+2026-02-28 14:13:31 - transform - INFO - transformation of data begins
+2026-02-28 14:13:31 - __main__ - ERROR - PIPELINE FAILED: object of type 'NoneType' has no len()
+Traceback (most recent call last):
+  File "C:\Users\ms398\ETL_PROJECT\src\main.py", line 18, in run_pipeline
+    cleaned_df = transformation(df)
+  File "C:\Users\ms398\ETL_PROJECT\src\transform.py", line 13, in transformation
+    before = len(df)
+    
+TypeError: object of type 'NoneType' has no len()
+2026-02-28 14:17:31 - __main__ - INFO - ------ PIPELINE STARTED ------
+2026-02-28 14:17:31 - extract - INFO - Starting extraction from: C:\Users\ms398\ETL_PROJECT\data\raw\Student_details.csv
+2026-02-28 14:17:31 - extract - INFO - File loaded successfully
+2026-02-28 14:17:31 - extract - INFO - pipeline runs smoothly
+2026-02-28 14:17:31 - transform - INFO - transformation of data begins
+2026-02-28 14:17:31 - transform - WARNING - Dropped 3 rows with misisng name: 
+2026-02-28 14:17:31 - transform - WARNING - dropped 4 rows where age is not number:
+2026-02-28 14:17:31 - transform - WARNING - Dropped 2 rows with empty grade : 
+2026-02-28 14:17:31 - transform - INFO - transformation complete . rows remaining : 11 
+2026-02-28 14:17:31 - load - INFO - saving Cleaned data Begins
+2026-02-28 14:17:31 - load - INFO - Load successful! Saved 11 rows to C:\Users\ms398\ETL_PROJECT\data\cleaned_data\cleaned_students.csv
+2026-02-28 14:17:31 - __main__ - INFO - ------ PIPELINE COMPLETED ------
